@@ -1,0 +1,250 @@
+* {margin: 0; padding:0;}
+body {
+	width: 900px;
+	margin:auto;
+	padding-right:50px;
+	padding-left:50px;
+ }
+
+ header {
+ 	width: 900px;
+ 	height: 250px;
+
+ }
+
+ header img {
+ 	width: 900px;
+ 	height: 250px;
+ }
+ menu {
+ 	width: 880px;
+ 	height: 30px;
+ 	background-color: blue;
+ 	padding:10px;
+ 	margin-top :5px;
+ }
+ menu li {
+ 	list-style: none;
+ 	float: left;
+ 	margin-right:230px;
+ 	margin-top: 5px;
+ 	color:#fff;
+ }
+ menu li a {
+ 	text-decoration:none;
+ 	color: #fff;
+ }
+ menu li a:hover {
+ 	color :orange;
+ 
+ }/*class recommended*/
+ .recommended {
+ 	width: 100%;
+ 	overflow:hidden;
+ 	background-color: #a7a7a7;
+ 	margin-top :5px;
+
+ }
+ .recommended h1 {
+ 	text-align: center;
+ }
+ .recommended .recommendedKiri {
+ 	width: 435px;
+ 	float: left;
+ 	margin: 10px 5px 5px 10px;
+ }
+ .recommended img {
+ 	width: 150px;
+ 	height: 100px;
+ 	float: left;
+ 	margin: 0px 5px 5px 0px;
+ 	box-shadow: 2px 2px 2px #333;s
+ }
+
+ .recommended .recommendedKiri p{
+ 	text-align: justify;
+ }
+ .recommended .recommendedKanan {
+ 	width: 435px;
+ 	float: left;
+ 	margin: 5px 10px 5px 5px;
+ }
+ .recommended a{
+ 	text-decoration: none;
+ 	color :#000;
+
+ }
+ .recommended a:hover{
+ 	color :#fff;
+ }
+/* akhir class recommended*/
+/*   class buaya*/
+.buaya {
+	width: 100%;
+	overflow:hidden;
+	background-color: #333;
+	margin-top: 5px;
+}
+
+.buaya .widget{
+	width: 245px;
+	float:left;
+	background-color: #f90;
+	
+}/*  class artikelTerlaris   */
+.buaya .widget .artikelTerlaris{
+	margin: 0 5px;
+}
+.buaya .widget .artikelTerlaris img {
+	width: 100px;
+	height:50px;
+	float: left;
+	margin-right: 2.5px;
+}
+.buaya .widget .artikelTerlaris h3{
+	text-align: center;
+	margin: 10px 0 10px;
+}
+/* akhir class artikelTerlaris */
+/*  class artikelTerbaru  */
+.buaya .artikelTerbaru {
+	width: 650Px;
+	background-color: #f90;
+	float: left;
+	margin-left: 5px
+}
+.buaya .artikelTerbaru img {
+	width: 550px;
+	margin:5px 50px 0;
+}
+.buaya .artikelTerbaru h2 {
+	margin-left: 5px;
+}
+.buaya .artikelTerbaru p{
+	margin: 0 5px 0 5px ;
+	text-align: justify;
+}
+/* akhir class artikelterbaru */
+.buaya a{
+	text-decoration: none;
+	color: #000
+}
+.buaya a:hover{
+	color: #fff
+}
+/*  class widget*/
+.buaya .widget .mediaSosial{
+	margin :5px 25px;
+	border-top: 5px solid  #333;
+}
+.buaya .widget .mediaSosial h3{
+	text-align: center;
+	margin:10px 0 10px;
+}
+.buaya .widget .mediaSosial img{
+	height: 35px;
+	width:35px;
+	margin: 5px;
+}
+.buaya .widget .mediaSosial img:hover{
+	opacity: 0.5
+}
+.buaya .widget .subscribe{
+	margin: 0 5px;
+	border-top: 5px solid #333;
+}
+.buaya .widget .subscribe h3{
+	text-align: center;
+	margin: 10px 0 10px;
+} 
+input[type="text"]{
+	width: 100%;
+	border-radius: 5px: 
+}
+.buaya .widget .subscribe textarea{
+	width: 100%;
+	height:100px;
+	max-width:235px;
+	max-height:550px;
+
+}
+input[type="submit"] {
+	width: 50%;
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 5px;
+	margin-left: 55px;
+}
+/* akhir class wigdet*/
+/*  class single-post  */
+.buaya .single-post {
+	width: 650Px;
+	background-color: #f90;
+	float: left;
+	margin-left: 5px
+}
+.buaya .single-post img {
+	width: 550px;
+	margin:5px 50px 0;
+	box-shadow: 2px 2px 2px;
+}
+.buaya .single-post h2 {
+	margin-left: 5px;
+}
+.buaya .single-post p{
+	margin: 0 5px 0 5px ;
+	text-align: justify;
+}
+.buaya .single-post li { 
+	margin: 5px 5px 5px 25px;
+
+}
+/* akhir class single-post */
+
+/*  class single-post2  */
+.buaya .single-post2 {
+	width: 650Px;
+	background-color: #f90;
+	float: left;
+	margin-left: 5px
+}
+.buaya .single-post2 img {
+	width: 550px;
+	margin:5px 50px 0;
+	box-shadow: 2px 2px 2px;
+}
+.buaya .single-post2 h2 {
+	margin-left: 5px;
+}
+.buaya .single-post2 p{
+	margin: 0 5px 0 5px ;
+	text-align: justify;
+}
+.buaya .single-post2 li { 
+	margin: 5px 5px 5px 25px;
+
+}
+/* akhir class single-post2 */
+/* footer?*/
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	margin-top: 10px;
+	position: relative;
+}
+.footer p {
+	color: #fff;
+	position:absolute;
+	bottom: 10px;
+	left: 350px;
+}
+.footer p a {
+	text-decoration: none;
+	color :#fff;
+}
+.footer p a:hover {
+	color: #000;
+
+}
+/* akhir footer*/
